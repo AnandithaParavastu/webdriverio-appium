@@ -1,0 +1,4 @@
+{
+  "script": "browserstack_executor: {\"action\":\"annotate\",\"arguments\":{\"data\":\"Test: delete note, verify trash can\",\"level\":\"info\"}}",
+  "args": []
+}
