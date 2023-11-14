@@ -63,6 +63,7 @@ await expect(actualList).toEqual(expectedList);
    console.log(await country.getText());
    await expect(country).toHaveText("Canada");
 
+
  })
 
  

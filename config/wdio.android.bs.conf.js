@@ -17,5 +17,13 @@ config.capabilities = [
     'appium:autoGrantPermissions' : true
 }];
 
-config.services = ['browserstack'];
+//config.services = ['browserstack'];
+config.services = [['browserstack', {
+args:{
+    relaxedSecurity: true
+},
+logPath: './'
+}
+
+]];
 exports.config = config;
